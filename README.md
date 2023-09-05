@@ -4,6 +4,11 @@
 
 结论： V2的效果最好，V3的速度最快，但是面临妆容和ID不够匹配的问题，如果能训练一个 天真蓝/海马体/古装照 半身lora作为基底模型，效果会更好
 
+此后开源的一些工作：
+
+- 2023.8 [facechain](https://github.com/modelscope/facechain)  工具链，解决一些工程问题，在训练lora前处理增加了landmark对齐旋转
+- 2023.9 [sd-webui-EasyPhoto](https://github.com/aigc-apps/sd-webui-EasyPhoto) 易用性改进，增加通过landmark对齐+openpose controlnet监督inpainting过程
+
 ### V1 inpainting
 
 Head/face inpainting based on sd-webui and lora models from civitai:
